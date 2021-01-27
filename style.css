@@ -1,0 +1,172 @@
+body{
+    background-color:black;
+}
+header{
+    background-color: black;
+    padding:20px;
+}
+
+h1{
+    margin-left: 20px;
+}
+
+.caixa{
+    width:940px;
+    position:relative;
+    margin: 0 auto;
+}
+
+nav{
+    position:absolute;
+    top:110px;
+    right:0;
+}
+.link{
+    font-family: 'Potta One', cursive;
+}
+
+nav li{
+    display:inline;
+    margin:0 15px;
+}
+
+nav a{
+    color:white;
+    text-transform:uppercase;
+    text-decoration:none;
+    font-size:26px;
+    font-weight:bold;
+}
+
+nav a:hover{
+    color:darkred;
+    text-decoration:underline ;
+}
+
+nav a:active{
+    color:darkblue;
+}
+
+.link{
+    font-family: 'Potta One', cursive;
+}
+
+#produtos{
+    width:940px;
+    margin: 0 auto;
+    padding:50px;
+}
+
+#produtos li{
+    font-family: 'Potta One', cursive;
+    color:white;
+    display: inline-block;
+    text-align: center;
+    width:30%;
+    vertical-align: top;
+    margin: 10px;
+    padding:30px 20px;
+    background-color: black;
+    box-sizing: border-box;
+    border:solid 5px white;
+    border-radius:20px;
+}
+
+#produtos li:hover{
+    border-color:darkred;
+}
+
+#produtos li:active{
+    border-color:darkblue;
+}
+
+#produtos li:hover h2{
+    font-size:40px;
+}
+
+#produtos li:active h2{
+    font-size:40px;
+}
+
+#produtos li:hover h2{
+    color:darkred;
+}
+
+#produtos li:active h2{
+    color:darkblue;
+}
+
+#produtos li:hover .preço{
+    font-size:40px;
+}
+
+#produtos li:active .preço{
+    font-size:40px;
+}
+
+#produtos li:hover .preço{
+    color: darkred;
+}
+
+#produtos li:active .preço{
+    color:darkblue;
+}
+
+
+#produtos h2{
+    font-size:30px;
+    font-weight: bold;
+    padding:20px;
+}
+
+.preço{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top:10px;
+}
+
+.descriçao{
+    font-size:20px;
+}
+
+footer{
+    background-color: black;
+    text-align: center;
+    padding:40px 0;
+}
+
+
+.rodape{
+    text-align: center;
+    width: 50%;
+    height:300px;
+    border: white 5px solid;
+    border-radius:20px;
+}
+.rodape:hover{
+    border:darkred solid 5px;
+}
+.rodape:active{
+    border:darkblue solid 5px;
+}
+
+
+
+
+
+.copyrigth{
+    color:white;
+    font-size:30px;
+    margin-top:20px;
+    font-family: 'Potta One', cursive;
+}
+
+
+
+.copyrigth:hover{
+    color:darkred;
+}
+
+.copyrigth:active{
+    color: darkblue;
+}
